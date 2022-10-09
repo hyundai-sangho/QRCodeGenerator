@@ -58,7 +58,7 @@ const createSaveBtn = (saveUrl) => {
   link.classList = 'bg-red-500 hover:bg-red-700 text-white font-bold py-2 rounded w-1/3 m-auto my-5';
   link.href = saveUrl;
   link.download = 'qrcode';
-  link.innerHTML = 'Save Image';
+  link.innerHTML = 'QR 이미지 받기';
   document.getElementById('generated').appendChild(link);
 };
 
